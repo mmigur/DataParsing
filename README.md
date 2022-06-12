@@ -15,7 +15,7 @@ In this project I tried to use basic knowledge of python and libraries for data 
 * [Beautiful Soup](https://pypi.org/project/beautifulsoup4/)
 * [Requests](https://python-scripts.com/requests)
 
->Next, I moved on to writing the code and created the main function:
+Next, I moved on to writing the code and created the main function:
 ```python
 import requests
 import csv # write csv file.
