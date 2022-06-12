@@ -11,7 +11,7 @@ Scroll down to view the repository
 * My progress
 
 # Description
->In this project I tried to use basic knowledge of python and libraries for data parsing:
+In this project I tried to use basic knowledge of python and libraries for data parsing:
 * [Beautiful Soup](https://pypi.org/project/beautifulsoup4/)
 * [Requests](https://python-scripts.com/requests)
 
@@ -31,8 +31,8 @@ if __name__ == '__main__':
     main()
 ```
 
->Then I proceeded to the main functionality
->>Wrote an algorithm for parsing by tags
+Then I proceeded to the main functionality
+Wrote an algorithm for parsing by tags
 
 ```python
 responce = requests.get('https://habr.com/ru/all/')
@@ -41,7 +41,7 @@ quotes = soup.find_all('a',class_='tm-article-snippet__title-link')
 headlines_collection += quotes
 ```
 
->But there was a problem that it parsed only the first page of the article, and I solved this problem. I started a variable where I wrote the number of pages and substituted it into the string in the loop
+But there was a problem that it parsed only the first page of the article, and I solved this problem. I started a variable where I wrote the number of pages and substituted it into the string in the loop
 
 ```python
 count_page = 1
@@ -52,17 +52,17 @@ while count_page < 51:
     headlines_collection += quotes
     count_page += 1
 ```
->And finally, I wrote it all down in an excel file
+And finally, I wrote it all down in an excel file
 ```python
     df = pd.DataFrame({'Аrticle titles': data})
     df.to_excel(f'./parsing_data/titles(xlsx)_{t_date}.xlsx', index=False)
 ```
 # Installation and launch of the project 
->* First we need to install the python interpreter from the [official website](https://www.python.org/downloads/)
->* Open the console and enter the commands to install the libraries there:
-  >>* *pip install pandas*
-  >>* *pip install beautifulsoup4*
->* Open the code in any code editor and run
+* First we need to install the python interpreter from the [official website](https://www.python.org/downloads/)
+* Open the console and enter the commands to install the libraries there:
+  * *pip install pandas*
+  * *pip install beautifulsoup4*
+* Open the code in any code editor and run
 
 # My progress
 
