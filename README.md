@@ -76,6 +76,8 @@ I want to do projects in python so far I have the following topics in my plans:
 
 * *Dataset analysis* :floppy_disk:
 
+*  *Game* :sparkles:
+
 * *Simple neural network* :books:
 
 * *Machine learning model* :video_game:
