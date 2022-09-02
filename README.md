@@ -70,13 +70,10 @@ In the future, I want to work in the field of data analysis and for this I post 
 
 I want to do projects in python so far I have the following topics in my plans:
 
-* *~~Python data parsing~~* :shit:
-
-* *Telegram bot* :space_invader:
+* *~~Simple data parsing~~* :shit:
+* *~~Difficult data parsing~~* :rage:
 
 * *Dataset analysis* :floppy_disk:
-
-*  *Game* :sparkles:
 
 * *Simple neural network* :books:
 
