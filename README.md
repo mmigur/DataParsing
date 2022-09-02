@@ -71,12 +71,15 @@ In the future, I want to work in the field of data analysis and for this I post 
 I want to do projects in python so far I have the following topics in my plans:
 
 * *~~Simple data parsing~~* :shit:
-* *~~Difficult data parsing~~* :rage:
+* *Difficult data parsing* :rage:
 
-* *Dataset analysis* :floppy_disk:
+* *Data analysis* :floppy_disk:
+* *Data mining* :rage:
 
 * *Simple neural network* :books:
+* *Difficult neural network :rage:
 
-* *Machine learning model* :video_game:
+* *Classic machine learning model* :video_game:
+* *Castom machine learning algoritm :rage:
 
-* *Final big project* :fire:
+* *Final big project(CameNoticed)* :fire:
