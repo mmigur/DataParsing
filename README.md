@@ -77,9 +77,9 @@ I want to do projects in python so far I have the following topics in my plans:
 * *Data mining* :rage:
 
 * *Simple neural network* :books:
-* *Difficult neural network :rage:
+* *Difficult neural network* :rage:
 
 * *Classic machine learning model* :video_game:
-* *Castom machine learning algoritm :rage:
+* *Castom machine learning algoritm* :rage:
 
 * *Final big project(CameNoticed)* :fire:
