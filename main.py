@@ -11,6 +11,7 @@ def collect_data():
     """
     headlines_collection = []
     count_page = 1
+    max_count_page = 51
     t_date = datetime.now().strftime('%d_%m_%Y')
 
     responce = requests.get('https://habr.com/ru/all/')
@@ -18,7 +19,7 @@ def collect_data():
     quotes = soup.find_all('a', class_='tm-article-snippet__title-link')
     headlines_collection += quotes
 
-    while count_page < 51:
+    while count_page < max_count_page:
         responce = requests.get(f'https://habr.com/ru/all/page{count_page}/')
         soup = BeautifulSoup(responce.text, 'lxml')
         quotes = soup.find_all('a', class_='tm-article-snippet__title-link')
