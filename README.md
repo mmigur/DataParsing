@@ -45,7 +45,9 @@ But there was a problem that it parsed only the first page of the article, and I
 
 ```python
 count_page = 1
-while count_page < 51:
+max_count_page = 51
+
+while count_page < max_count_page:
     responce = requests.get(f'https://habr.com/ru/all/page{count_page}/')
     soup = BeautifulSoup(responce.text, 'lxml')
     quotes = soup.find_all('a', class_='tm-article-snippet__title-link')
