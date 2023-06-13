@@ -69,19 +69,3 @@ And finally, I wrote it all down in an excel file
 # My progress
 
 In the future, I want to work in the field of data analysis and for this I post projects. Although they are simple, but I am learning something.
-
-I want to do projects in python so far I have the following topics in my plans:
-
-* *~~Simple data parsing~~* :shit:
-* *Difficult data parsing* :rage:
-
-* *Data analysis* :floppy_disk:
-* *Data mining* :rage:
-
-* *Simple neural network* :books:
-* *Difficult neural network* :rage:
-
-* *Classic machine learning model* :video_game:
-* *Castom machine learning algoritm* :rage:
-
-* *Final big project(CameNoticed)* :fire:
